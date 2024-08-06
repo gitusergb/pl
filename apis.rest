@@ -82,7 +82,7 @@ u will get
 ### product
 1)/update/:productID
 
-PATCH  http://localhost:7000/hwpro/update/:productID
+PATCH  https://pl-uzk8.onrender.com/hwpro/hwpro/update/:productID
 
 //pass productID in params :
 

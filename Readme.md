@@ -28,12 +28,12 @@ Application Deployment, also known as Software Deployment, is the process of ins
 
 ### products
 ### GET all 
-GET 
+GET https://pl-uzk8.onrender.com/hwpro/
 
 ### *** POST:
 
 POST 
-1)/create
+1)https://pl-uzk8.onrender.com/hwpro/create
 
 //body:
 ```
@@ -66,9 +66,9 @@ o/p:
 
 1)/
 
-GET 
+GET https://pl-uzk8.onrender.com/hwpro/
 or 
-GET  http://localhost:7000/hwpro/:productID
+GET  https://pl-uzk8.onrender.com/hwpro/:productID
 
 u will get 
 ```
@@ -109,7 +109,7 @@ u will get
 ### product
 1)/update/:productID
 
-PATCH  http://localhost:7000/hwpro/update/:productID
+PATCH https://pl-uzk8.onrender.com/hwpro/update/:productID
 
 //pass productID in params :
 
@@ -137,7 +137,7 @@ u will get the product updated
 ### product
 1)/delete/:product ID
 
-DELETE /delete/:productID
+DELETE https://pl-uzk8.onrender.com/hwpro/delete/:productID
 //pass productID in params ex: 66b1ae05b72dd080c9585b52
 ```
 {
